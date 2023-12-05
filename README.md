@@ -30,3 +30,5 @@ Insertar simbolos:El código en C++ define una clase Environment que gestiona un
 Búsqueda de símbolos: El código en C++ define una clase Environment que gestiona un entorno simbólico mediante un std::map. La clase permite insertar y buscar símbolos, así como obtener sus valores. El programa principal crea un entorno, inserta símbolos, y realiza búsquedas, manejando posibles errores de símbolos no definidos.
 
 Gestión de errores: El código en C++ define una clase llamada Environment que encapsula un entorno simbólico utilizando un contenedor std::map para gestionar los símbolos y sus valores asociados. El programa principal demuestra el uso de esta clase al crear una instancia del entorno, agregar símbolos con valores, y luego intentar acceder a estos símbolos. Se utiliza el mecanismo de manejo de excepciones para atrapar posibles errores, como la inserción de un símbolo ya existente o la búsqueda de un símbolo no definido.
+
+Reflexión y mejoras:
