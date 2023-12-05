@@ -24,4 +24,8 @@ public:
             return 0;
         }
     }
+private:
+    using SymbolData = std::variant<int, double, std::string>; // Puede almacenar int, double o std::string
+    std::map<std::string, SymbolData> symbols;
+};
 
