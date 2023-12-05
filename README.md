@@ -16,4 +16,6 @@ La respuesta correcta es el apartado A: Una cadena de texto que representa una i
 
 La respuesta correcta es el apartado B: Convierte un objeto Variant a una cadena JSON
 
+4. ¿Qué función cumple el método from_json_string() en la clase Variant?
+
 
