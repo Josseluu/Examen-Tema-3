@@ -39,7 +39,7 @@ int main() {
         std::cout << "El valor de x es: " << valueX << std::endl;
         std::cout << "El valor de y es: " << valueY << std::endl;
 
-        // Intenta insertar un símbolo que ya está definido (debería lanzar una excepción)
+
         environment.addSymbol("x", 30);
     } catch (const std::exception& e) {
         std::cerr << "Excepción atrapada: " << e.what() << std::endl;
