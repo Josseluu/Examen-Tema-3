@@ -24,3 +24,5 @@ La respuesta correcta es el apartado C: Parsea un objeto JSON a un objeto Varian
 Parte 2: Pregunta de desarrollo de código 
 
 Estructura básica: El código define una clase Environment en C++ que gestiona una tabla de símbolos usando un std::map. Proporciona métodos para agregar símbolos a la tabla addSymbol¡ y obtener sus valores getSymbolValue. El programa principal demuestra la creación de un entorno, la adición de símbolos, la obtención y visualización de valores, y manejo de errores al intentar obtener un símbolo no definido.
+
+Insertar simbolos:
