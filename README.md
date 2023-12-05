@@ -18,4 +18,6 @@ La respuesta correcta es el apartado B: Convierte un objeto Variant a una cadena
 
 4. ¿Qué función cumple el método from_json_string() en la clase Variant?
 
+La respuesta correcta es el apartado C: Parsea un objeto JSON a un objeto Variant
+
 
