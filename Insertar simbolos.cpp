@@ -6,7 +6,7 @@ class Environment {
 public:
     Environment() {}
 
-    // Método para insertar un símbolo en la tabla de símbolos sin conflictos
+
     void insert(const std::string& name, int value) {
         std::pair<std::map<std::string, int>::iterator, bool> result = symbols.insert(std::make_pair(name, value));
 
@@ -15,7 +15,7 @@ public:
         }
     }
 
-    // Método para obtener el valor de un símbolo de la tabla de símbolos
+
     int getSymbolValue(const std::string& name) const {
         std::map<std::string, int>::const_iterator it = symbols.find(name);
         if (it != symbols.end()) {
@@ -26,14 +26,14 @@ public:
         }
     }
 
-    // Método para buscar un símbolo y devolver su valor (maneja casos en los que el símbolo no existe)
+
     int lookup(const std::string& name) const {
         std::map<std::string, int>::const_iterator it = symbols.find(name);
         if (it != symbols.end()) {
-            return it->second; // Devuelve el valor si el símbolo está definido
+            return it->second;
         } else {
             std::cerr << "Advertencia: El símbolo '" << name << "' no está definido en el entorno." << std::endl;
-            return 0; // Devuelve 0 o maneja el caso de otra manera según tus necesidades
+            return 0;
         }
     }
 
