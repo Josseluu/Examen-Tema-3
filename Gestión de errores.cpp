@@ -26,3 +26,33 @@ public:
 private:
     std::map<std::string, int> symbols;
 };
+int main() {
+    try {
+        Environment environment;
+
+        environment.addSymbol("x", 10);
+        environment.addSymbol("y", 20);
+
+        int valueX = environment.getSymbolValue("x");
+        int valueY = environment.getSymbolValue("y");
+
+        std::cout << "El valor de x es: " << valueX << std::endl;
+        std::cout << "El valor de y es: " << valueY << std::endl;
+
+        // Intenta insertar un símbolo que ya está definido (debería lanzar una excepción)
+        environment.addSymbol("x", 30);
+    } catch (const std::exception& e) {
+        std::cerr << "Excepción atrapada: " << e.what() << std::endl;
+    }
+
+    try {
+        Environment environment;
+
+        // Intenta obtener el valor de un símbolo no definido (debería lanzar una excepción)
+        int valueZ = environment.getSymbolValue("z");
+    } catch (const std::exception& e) {
+        std::cerr << "Excepción atrapada: " << e.what() << std::endl;
+    }
+
+    return 0;
+}
