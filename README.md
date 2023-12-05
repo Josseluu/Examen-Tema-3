@@ -9,3 +9,5 @@ PARTE 1: PREGUNTAS DE ELECCIÓN MÚLTIPLE
 La respuesta correcta es el apartado B: Representar cualquier tipo de dato Lisp
 
 2. ¿Qué representación se obtiene al utilizar el método to_string() en un objeto Variant?
+
+La respuesta correcta es el apartado A: Una cadena de texto que representa una instancia de Variant
