@@ -14,3 +14,15 @@ public:
             throw std::invalid_argument("Error: El símbolo '" + name + "' ya está definido en el entorno.");
         }
     }
+    int getSymbolValue(const std::string& name) const {
+        std::map<std::string, int>::const_iterator it = symbols.find(name);
+        if (it != symbols.end()) {
+            return it->second;
+        } else {
+            throw std::out_of_range("Error: El símbolo '" + name + "' no está definido.");
+        }
+    }
+
+private:
+    std::map<std::string, int> symbols;
+};
