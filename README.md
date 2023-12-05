@@ -27,4 +27,4 @@ Estructura básica: El código define una clase Environment en C++ que gestiona 
 
 Insertar simbolos:El código en C++ define una clase Environment que gestiona un entorno con una tabla de símbolos utilizando un std::map. Se crean instancias de esta clase y se utilizan métodos para insertar símbolos en la tabla sin conflictos. Se demuestra la detección de intentos de inserción de símbolos ya existentes, y se obtienen y muestran valores asociados a símbolos específicos en la tabla. En resumen, el código ilustra cómo gestionar entornos simbólicos y manejar conflictos al insertar nuevos símbolos.
 
-Búsqueda de símbolos:
+Búsqueda de símbolos: El código en C++ define una clase Environment que gestiona un entorno simbólico mediante un std::map. La clase permite insertar y buscar símbolos, así como obtener sus valores. El programa principal crea un entorno, inserta símbolos, y realiza búsquedas, manejando posibles errores de símbolos no definidos.
