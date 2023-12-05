@@ -22,3 +22,5 @@ La respuesta correcta es el apartado C: Parsea un objeto JSON a un objeto Varian
 
 
 Parte 2: Pregunta de desarrollo de código 
+
+Estructura básica: 
