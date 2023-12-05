@@ -21,3 +21,4 @@ La respuesta correcta es el apartado B: Convierte un objeto Variant a una cadena
 La respuesta correcta es el apartado C: Parsea un objeto JSON a un objeto Variant
 
 
+Parte 2: Pregunta de desarrollo de código 
