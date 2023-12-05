@@ -31,6 +31,12 @@ Búsqueda de símbolos: El código en C++ define una clase Environment que gesti
 
 Gestión de errores: El código en C++ define una clase llamada Environment que encapsula un entorno simbólico utilizando un contenedor std::map para gestionar los símbolos y sus valores asociados. El programa principal demuestra el uso de esta clase al crear una instancia del entorno, agregar símbolos con valores, y luego intentar acceder a estos símbolos. Se utiliza el mecanismo de manejo de excepciones para atrapar posibles errores, como la inserción de un símbolo ya existente o la búsqueda de un símbolo no definido.
 
+Integración con variant: No he sido capaz de resolverlo
+
+Expandiendo funcionalidades: El código proporciona una implementación simple de la clase Environment en C++, que simula un entorno o contexto de variables con nombres asociados a valores enteros. La clase incluye funciones para agregar, obtener, insertar, eliminar y verificar la existencia de símbolos en el entorno. Se proporciona un ejemplo en la función main() que ilustra el uso de estas funciones, como agregar símbolos, verificar su existencia, eliminar uno de ellos y luego verificar nuevamente.
+
+Casos de uso: No he sido capaz de resolverlo
+
 Reflexión y mejoras: Es cierto que esta segunda unidad ha sido bastante mas dificil, ya que nos vamos adentrando, a mi en particular me gustaría mas ejemplos practicos, como por ejemplo la instalacion y completacion de la libreria Boost.
 Aunque esto tiene sus puntos fuertes como por ejemplo, la capacidad de buscar y resolver nuestros problemas por nosotros solos. Esto ahora nos fastidia pero de cara al futuro desarrollaremos la habilidad de comprender y realizar problemas complejos que otros no podrían.
 Por otro lado la desventaja es que nos es muy abstracto y es dificil de entender algunos ejercicios pero como decia anteriormente esto hace que investiguemos y aprendamos mas.
