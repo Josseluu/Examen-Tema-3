@@ -23,3 +23,23 @@ public:
 private:
     std::map<std::string, int> symbols; // Tabla de símbolos
 };
+int main() {
+    Environment environment;
+
+
+    environment.addSymbol("x", 10);
+    environment.addSymbol("y", 20);
+
+
+    int valueX = environment.getSymbolValue("x");
+    int valueY = environment.getSymbolValue("y");
+
+
+    std::cout << "El valor de x es: " << valueX << std::endl;
+    std::cout << "El valor de y es: " << valueY << std::endl;
+
+
+    int valueZ = environment.getSymbolValue("z");
+
+    return 0;
+}
