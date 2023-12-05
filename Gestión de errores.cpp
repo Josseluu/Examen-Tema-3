@@ -48,7 +48,7 @@ int main() {
     try {
         Environment environment;
 
-        // Intenta obtener el valor de un símbolo no definido (debería lanzar una excepción)
+
         int valueZ = environment.getSymbolValue("z");
     } catch (const std::exception& e) {
         std::cerr << "Excepción atrapada: " << e.what() << std::endl;
