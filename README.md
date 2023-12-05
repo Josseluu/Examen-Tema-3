@@ -18,7 +18,7 @@ La respuesta correcta es el apartado B: Convierte un objeto Variant a una cadena
 
 4. ¿Qué función cumple el método from_json_string() en la clase Variant?
 
-La respuesta correcta es el apartado A: 
+La respuesta correcta es el apartado A: Convierte una cadena JSON en un objeto Variant
 
 
 Parte 2: Pregunta de desarrollo de código 
